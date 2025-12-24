@@ -1,0 +1,10 @@
+public class clientsDataTable {
+    @AuraEnabled(cacheable=true)
+    public static List<Clients__c> searchClients(String searchKey) {
+        
+        String key = searchKey + '%';
+        
+        List<Clients__c> clientss = [SELECT Id, Name, Client_Phone__c, Email__c FROM Clients__c WHERE Name LIKE :key];
+        return clientss;
+    }
+}
