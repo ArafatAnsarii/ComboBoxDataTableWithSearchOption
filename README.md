@@ -5,8 +5,7 @@
 A responsive Clients DataTable built using HTML, CSS, and JavaScript that allows users to view, search, and filter client records efficiently.
 
 <img width="1884" height="286" alt="Screenshot 2025-12-24 181319" src="https://github.com/user-attachments/assets/d5d7736d-9c0e-4721-b27f-6cc9fb6e31ba" />
-
-
+<br>
 
 🚀 Features
 
@@ -16,11 +15,9 @@ A responsive Clients DataTable built using HTML, CSS, and JavaScript that allows
 
 📱 Fully responsive design
 
-⚡ Fast and lightweight (Vanilla JavaScript)
+⚡ Fast and lightweight
 
 🧩 Easy to customize and extend
-
-
 
 🛠️ Technologies Used
 
