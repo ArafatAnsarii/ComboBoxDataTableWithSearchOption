@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Clients Searching Data Table">
+        <div class="slds-m-around_medium">
+            <lightning-input placeholder="Search..." label="Search Client" value={searchKey} onchange={handleSearch} type="Text"></lightning-input>
+            <lightning-datatable class="slds-m-bottom_medium" key-field="Id" data={data} columns={columns}></lightning-datatable>
+        </div>
+    </lightning-card>
+</template>
